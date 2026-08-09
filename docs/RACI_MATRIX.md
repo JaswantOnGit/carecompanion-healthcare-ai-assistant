@@ -1,8 +1,8 @@
-# RACI Matrix — CareCompanion Healthcare AI Assistant
+# RACI Matrix - CareCompanion Healthcare AI Assistant
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-Roles are represented as they would exist in a real hospital AI delivery. On this solo build, Jaswant Singh held the AI Project Manager / Delivery Lead role and executed the technical build directly — the matrix reflects how ownership would be distributed on a live team.
+Roles are represented as they would exist in a real hospital AI delivery. On this solo build, Jaswant Singh held the AI Project Manager / Delivery Lead role and executed the technical build directly - the matrix reflects how ownership would be distributed on a live team.
 
 | Activity | AI Project Manager | Platform / Cloud Engineer | Clinical Safety Reviewer | Patient Services Lead | IT Security |
 |---|---|---|---|---|---|
