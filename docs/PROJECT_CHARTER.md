@@ -1,10 +1,10 @@
-# Project Charter — CareCompanion Healthcare AI Assistant
+# Project Charter - CareCompanion Healthcare AI Assistant
 
 ## 1. Project Summary
-Deliver a multi-agent AI assistant for Northfield General Hospital (fictional, synthetic data) that handles patient-service requests: hospital policy questions, appointment scheduling, and discharge-document processing — without ever providing medical advice or missing an emergency signal.
+Deliver a multi-agent AI assistant for Northfield General Hospital (fictional, synthetic data) that handles patient-service requests: hospital policy questions, appointment scheduling, and discharge-document processing - without ever providing medical advice or missing an emergency signal.
 
 ## 2. Business Case
-Hospital patient-services lines field a high volume of low-acuity, repetitive requests (visiting hours, appointment status, discharge paperwork) that consume clinical and administrative staff time better spent on care delivery. An AI assistant can absorb this volume — provided it can be trusted not to guess, not to diagnose, and not to miss a genuine emergency.
+Hospital patient-services lines field a high volume of low-acuity, repetitive requests (visiting hours, appointment status, discharge paperwork) that consume clinical and administrative staff time better spent on care delivery. An AI assistant can absorb this volume - provided it can be trusted not to guess, not to diagnose, and not to miss a genuine emergency.
 
 ## 3. Scope
 
@@ -19,7 +19,7 @@ Hospital patient-services lines field a high volume of low-acuity, repetitive re
 **Out of scope**
 - Any form of medical diagnosis, symptom interpretation, or treatment guidance
 - Real patient data of any kind (synthetic data only, for this build)
-- Billing transaction processing (informational only — routes to Patient Services for action)
+- Billing transaction processing (informational only - routes to Patient Services for action)
 - Integration with a live hospital EHR/EMR system
 
 ## 4. Hard Guardrails (non-negotiable, enforced at the instruction layer)
@@ -44,7 +44,7 @@ Hospital patient-services lines field a high volume of low-acuity, repetitive re
 
 ## 7. Constraints
 - Build environment: Microsoft Foundry (GPT-5-mini, text-embedding-3-large), Azure AI Content Understanding, Microsoft Agent Framework
-- Synthetic data only — no real PHI at any stage
+- Synthetic data only - no real PHI at any stage
 - Model quota/regional availability may require substituting an equivalent GPT or embedding model
 
 ## 8. Timeline
